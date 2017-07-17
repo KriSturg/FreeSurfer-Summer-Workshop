@@ -1,5 +1,5 @@
 Logfile for pctsurfcon
-Sat Jul  1 00:27:03 EDT 2017
+Thu Jul  6 21:31:13 EDT 2017
 setenv SUBJECTS_DIR /Users/freesurfer_user/Documents/GitHub/FreeSurfer-Summer-Workshop/fs
 cd /Users/freesurfer_user/Documents/GitHub/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/scripts
 /Applications/freesurfer/bin/pctsurfcon

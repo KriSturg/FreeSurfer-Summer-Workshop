@@ -1,29 +1,29 @@
 # Table of FreeSurfer cortical parcellation anatomical statistics 
 # 
-# CreationTime 2017/06/28-20:13:12-GMT
+# CreationTime 2017/07/07-02:49:16-GMT
 # generating_program mris_anatomical_stats
 # cvs_version $Id: mris_anatomical_stats.c,v 1.79 2016/03/14 15:15:34 greve Exp $
 # mrisurf.c-cvs_version $Id: mrisurf.c,v 1.781.2.6 2016/12/27 16:47:14 zkaufman Exp $
 # cmdline mris_anatomical_stats -th3 -mgz -f ../stats/lh.BA_exvivo.thresh.stats -b -a ./lh.BA_exvivo.thresh.annot -c ./BA_exvivo.thresh.ctab sub.01.bl.01 lh white 
 # sysname  Darwin
-# hostname trash-can.local
+# hostname CFMI-iMac-04.local
 # machine  x86_64
-# user     shad
+# user     freesurfer_user
 # 
-# SUBJECTS_DIR /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs
+# SUBJECTS_DIR /Users/freesurfer_user/Documents/GitHub/FreeSurfer-Summer-Workshop/fs
 # anatomy_type surface
 # subjectname sub.01.bl.01
 # hemi lh
 # AnnotationFile ./lh.BA_exvivo.thresh.annot
-# AnnotationFileTimeStamp 2017/06/28 16:12:41
-# Measure Cortex, NumVert, Number of Vertices, 130202, unitless
-# Measure Cortex, WhiteSurfArea, White Surface Total Area, 86209.4, mm^2
-# Measure BrainSeg, BrainSegVol, Brain Segmentation Volume, 1095541.000000, mm^3
-# Measure BrainSegNotVent, BrainSegVolNotVent, Brain Segmentation Volume Without Ventricles, 1081094.000000, mm^3
-# Measure BrainSegNotVentSurf, BrainSegVolNotVentSurf, Brain Segmentation Volume Without Ventricles from Surf, 1080818.830499, mm^3
-# Measure Cortex, CortexVol Total cortical gray matter volume, 447349.314442, mm^3
-# Measure SupraTentorial, SupraTentorialVol, Supratentorial volume, 946925.830499, mm^3
-# Measure SupraTentorialNotVent, SupraTentorialVolNotVent, Supratentorial volume, 935443.830499, mm^3
+# AnnotationFileTimeStamp 2017/07/06 22:48:19
+# Measure Cortex, NumVert, Number of Vertices, 130597, unitless
+# Measure Cortex, WhiteSurfArea, White Surface Total Area, 86563.4, mm^2
+# Measure BrainSeg, BrainSegVol, Brain Segmentation Volume, 1086620.000000, mm^3
+# Measure BrainSegNotVent, BrainSegVolNotVent, Brain Segmentation Volume Without Ventricles, 1072173.000000, mm^3
+# Measure BrainSegNotVentSurf, BrainSegVolNotVentSurf, Brain Segmentation Volume Without Ventricles from Surf, 1071013.044825, mm^3
+# Measure Cortex, CortexVol Total cortical gray matter volume, 437562.712122, mm^3
+# Measure SupraTentorial, SupraTentorialVol, Supratentorial volume, 936600.044825, mm^3
+# Measure SupraTentorialNotVent, SupraTentorialVolNotVent, Supratentorial volume, 925118.044825, mm^3
 # Measure EstimatedTotalIntraCranialVol, eTIV, Estimated Total Intracranial Volume, 1282838.909720, mm^3
 # NTableCols 10
 # TableCol  1 ColHeader StructName
@@ -57,17 +57,17 @@
 # TableCol 10 FieldName Intrinsic Curvature Index
 # TableCol 10 Units     unitless
 # ColHeaders StructName NumVert SurfArea GrayVol ThickAvg ThickStd MeanCurv GausCurv FoldInd CurvInd
-BA1_exvivo                                816    428   1482  2.518 0.508     0.116     0.026       11     0.9
-BA2_exvivo                               1410    934   2520  2.405 0.465     0.106     0.021       11     1.1
-BA3a_exvivo                               918    621    800  1.658 0.400     0.133     0.030        9     1.1
-BA3b_exvivo                              1589    986   1810  1.706 0.410     0.099     0.021       14     1.4
-BA4a_exvivo                              1647    916   2752  2.651 0.438     0.086     0.020       10     1.4
-BA4p_exvivo                              1177    699   1629  2.489 0.449     0.094     0.022        7     1.2
-BA6_exvivo                               4512   2909   9917  2.829 0.514     0.114     0.025       44     4.5
-BA44_exvivo                              1522   1005   2928  2.628 0.469     0.124     0.032       18     1.9
-BA45_exvivo                              1259    834   2918  2.666 0.561     0.140     0.031       20     1.6
-V1_exvivo                                3574   2298   3625  1.594 0.462     0.131     0.031       41     4.6
-V2_exvivo                                3835   2415   4260  1.725 0.531     0.159     0.041       70     6.5
-MT_exvivo                                 363    248    765  2.628 0.510     0.142     0.031        5     0.4
-perirhinal_exvivo                         355    216    941  3.012 1.001     0.124     0.041        4     0.7
-entorhinal_exvivo                         367    245    959  3.120 0.585     0.105     0.027        3     0.4
+BA1_exvivo                                729    425   1437  2.487 0.479     0.126     0.029       10     0.9
+BA2_exvivo                               1362    923   2399  2.322 0.421     0.109     0.021       12     1.2
+BA3a_exvivo                               907    636    797  1.607 0.379     0.142     0.033        9     1.2
+BA3b_exvivo                              1577    996   1863  1.727 0.433     0.099     0.023       14     1.5
+BA4a_exvivo                              1603    912   2811  2.673 0.443     0.088     0.024       13     1.7
+BA4p_exvivo                              1144    705   1672  2.461 0.443     0.096     0.021        7     1.1
+BA6_exvivo                               4444   2916   9294  2.713 0.482     0.114     0.024       42     4.2
+BA44_exvivo                              1531   1010   2758  2.546 0.482     0.130     0.041       23     3.0
+BA45_exvivo                              1273    832   2784  2.579 0.494     0.141     0.034       24     1.5
+V1_exvivo                                3514   2266   3537  1.576 0.462     0.132     0.033       41     4.7
+V2_exvivo                                3818   2412   4245  1.712 0.523     0.159     0.041       70     6.4
+MT_exvivo                                 375    258    791  2.645 0.496     0.139     0.029        5     0.4
+perirhinal_exvivo                         338    217    908  2.875 0.925     0.112     0.032        3     0.5
+entorhinal_exvivo                         418    269    984  2.976 0.639     0.130     0.055        9     1.1

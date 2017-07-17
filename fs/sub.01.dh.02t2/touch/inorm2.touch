@@ -1,1 +1,1 @@
-mri_normalize -mprage -aseg aseg.presurf.mgz -mask brainmask.mgz norm.mgz brain.mgz
+mri_normalize -f /Users/freesurfer_user/Documents/GitHub/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02t2/tmp/control.dat -mprage -aseg aseg.presurf.mgz -mask brainmask.mgz norm.mgz brain.mgz
